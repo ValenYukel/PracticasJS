@@ -15,7 +15,7 @@ console.log(misDatos.saludar())
 let auto = {
     marca: "Audi",
     modelo: "A5",
-    año: 2024,
+    anio: 2024,
     color: "plateado",
     posicion: 0,
     avanzar: function(n) {
@@ -37,7 +37,7 @@ console.log(auto.posicion);
 let nuevoAuto = {
     marca: "Audi",
     modelo: "A5",
-    año: 2024,
+    anio: 2024,
     color: "plateado",
     posicion: 0,
     moverse: function(n){
