@@ -1,6 +1,7 @@
 let mensaje = "¿Vas a salir de tu casa?";
 let pregunta = confirm(mensaje);
 console.log(pregunta);
+
 if (pregunta == true) { 
     let texto = "Chequeá el pronóstico del tiempo antes de salir"
     let aviso = alert(texto)
