@@ -6,7 +6,7 @@ if (preg == true){
     let body = document.querySelector("body");
     body.style.backgroundColor = "#444";
 
-    let letra = document.querySelector("p");
+    let letra = document.querySelectorAll("p");
     letra.style.backgroundColor = "#fff";
 
     document.querySelector(".respuesta").innerText = "Dark Mode activado";
