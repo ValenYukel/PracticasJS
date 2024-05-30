@@ -3,10 +3,22 @@
 window.addEventListener('load', function() {
 
     //capturar HTML 
-    let titulo = ;
+    let titulo = document.querySelector("#titulo");
+
+    titulo.addEventListener("mouseover", function(){ 
+        nombre = prompt("¿CÓMO TE LLAMÁS?");
+        console.log(nombre);
+     });
  
-    let saludo = ;
- 
+     
+    let saludo = document.querySelector("#saludo");
+
+    saludo.addEventListener("mouseover", function(){ 
+        nombre = prompt("¿CÓMO TE LLAMÁS?");
+        console.log(nombre);
+     });
+
+
     let span = ;
  
     /* Capturar pesonajes + Asignarles a cada uno su evento correspondiente, 

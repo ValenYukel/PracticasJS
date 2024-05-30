@@ -22,6 +22,8 @@ if (seguro == true){
         let gusta1 = "¿Te gusta la programación?";
         let gusta2 = confirm(gusta1);
         console.log(gusta2);
+        
+        if (edad > 17)
 
         if (gusta2 == true){ 
            let fondo =  document.querySelector(".background-img")
